@@ -1,0 +1,47 @@
+body {
+  font-family: 'Odibee Sans', cursive;
+}
+ h6 {
+   color: red;
+ }
+
+.row-content {
+  padding: 25px;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.navbar li{
+  padding: 20px;
+  
+}
+
+.navbar img {
+  position: relative;
+}
+
+#loginModal .modal-header {
+  background-color: red;
+  color: white; 
+}
+
+.carousel {
+  border: solid #FA4616;
+}
+
+.site-footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.site-footer ul a  {
+color: red;
+}
+.site-footer i {
+  color: white;
+  }

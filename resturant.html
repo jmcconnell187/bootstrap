@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap" >
+        <link rel="stylesheet" href="css/styles-2.css" />
+        <title>Pizza Planet</title>
+        <style>
+            .hero{
+                height: 100vh;
+                background-image: linear-gradient(rgba(0,0,0.8),rgba(0,0,0,0.6)),url(img/pizza-bkgd.jpg);
+                background-position: center;
+                background-size: cover;
+                overflow-x: hidden;
+                position: relative;
+}
+        </style>
+    </head>
+    <body>
+        <div class="hero">
+            <div class="nav-bar">
+                <div class="nav-logo">
+                    <img src="img/planet-logo.png" alt="Pizza Logo">
+                </div>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-close" onclick="closeMenu()"></i>
+                    <ul>
+                        <a href="#"><li>HOME</li></a>
+                        <a href="#"><li>ABOUT</li></a>
+                        <a href="#"><li>MENU</li></a>
+                    </ul>
+                    <button type="button" class="btn">SIGN UP</button>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+            <div class="banner-title">
+                <h1>Galatic Pizza, here on Earth</h1>
+                <button type="button" class="btn">EXPLORE</button>
+            </div>
+            <div class="vertical-bar">
+                <div class="search-icon">
+                    <i class="fa fa-th-list"></i>
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="social-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                </div>
+            </div>
+            
+        </div>
+        <script>
+            var show = document.getElementById("nav-links");
+            function showMenu() {
+                show.style.right = "0";
+                
+            }
+            function closeMenu() {
+                show.style.right = "-200px";
+                
+            }
+        </script>
+    </body>
+
+</html>

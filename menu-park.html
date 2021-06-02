@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" >
+    <link rel="stylesheet" href="css/styles-park.css" />
+    <title>Burger Park - Menu</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index-park.html"><img src="img/b-logo.png" 
+                height="80" width="80"></a>
+            <button class="navbar-toggler" type="button"
+         data-toggle="collapse" data-target="#planetNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                   
+            <div class="collapse navbar-collapse" id="planetNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" 
+                    href="index-park.html"></i> Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" 
+                    href="menu-park.html"></i> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" 
+                    href="aboutus-park.html"></i>About</a></li>
+                </ul> 
+                <span class="navbar-text ml-auto">
+                    <a role="button" class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Rewards Login</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-danger btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-10 mx-auto col-12 text-center mb-3">
+                <h1 class="mt-0 text-danger">Our Menu</h1>
+                <p class="lead">Find everything from our Texas Cheese Fries, our Black + Bleu Burger and our always spicy, Spicy Chicken Burger</p>
+            </div>
+            <div class="col-12 mt-4">
+                <h3 class="text-center">Cocktails</h3>
+                <hr class="accent my-5">
+            </div>
+            <div class="card-columns">
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$10</span>
+                    <h6 class="text-truncate">Grand Coconut Margarita</h6>
+                    <p class="small">Lunazul Blanco Tequila, Sauza Silver Tequila, Malibu Coconut Rum and Grand Marnier® with coconut puree</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$9</span>
+                    <h6 class="text-truncate">Summer Breeze Martini</h6>
+                    <p class="small">Hendrick’s Gin, St. Germain Elderflower Liqueur and Brancot Sauvignon Blanc with a floater of Cristalino Cava Brut</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$9</span>
+                    <h6 class="text-truncate">Sweet Heat Margarita</h6>
+                    <p class="small">Jalapeño infused tequila, triple sec, pineapple juice, lime.</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$10</span>
+                    <h6 class="text-truncate">Captain’s Castaway</h6>
+                    <p class="small">Captain Morgan Original Spiced Rum, Malibu Coconut Rum, fresh sour, mango puree & pineapple juice</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$9</span>
+                    <h6>Classic Martini</h6>
+                    <p class="small">Seagrams Gin, Dry Vermouth, pickle juice, olive juice</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$10</span>
+                    <h6 class="text-truncate">Ruby Red Rosemary Refresher</h6>
+                    <p class="small">House infused rosemary vodka, St. Germaine Elderflower liqueur, grapefruit juice and a splash of soda</p>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <h3 class="text-center">Starters</h3>
+                <hr class="accent my-5">
+            </div>
+            <div class="card-columns">
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$9.95</span>
+                    <h6 class="text-truncate">Fried Shrimp</h6>
+                    <p class="small">Sustainably raised Argentine red shrimp, fried golden brown and served with chipotle mayonnaise for dipping</p>
+                    <span class="font-weight-bold small">Add marinara or tartar: $2</span>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$8.95</span>
+                    <h6 class="text-truncate">Southwestern Eggrolls</h6>
+                    <p class="small">These aren’t your ordinary eggrolls. Crispy flour tortillas, chicken, black beans, corn, jalapeño Jack cheese, red peppers, spinach. Served with avocado-ranch</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$7.95</span>
+                    <h6 class="text-truncate">Quesadilla</h6>
+                    <p class="small">Jack and cheddar cheese, chopped mild green chilies in a pan grilled flour tortilla. Served with sour cream, guacamole and fresh pico de gallo</p>
+                    <div class="font-weight-bold small">Add Chili: $2</div>
+                    <div class="font-weight-bold small">Add BBQ Pulled Pork: $2</div>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$9.95</span>
+                    <h6 class="text-truncate">Wings</h6>
+                    <p class="small">A dozen of our crispy, tasty chicken wings. Select 1 of our 4 seasonings</p>
+                    <div class="font-weight-bold small">Classic Sweet BBQ</div>
+                    <div class="font-weight-bold small">Hot Buffalo Sauce</div>
+                    <div class="font-weight-bold small">Sriracha Honey Fish Sauce</div>
+                    <div class="font-weight-bold small">Scorching Hot Habanero</div>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$9.95</span>
+                    <h6 class="text-truncate">Ultimate Nacho Platter</h6>
+                    <p class="small"> House made corn tortilla chips, melted cheddar-Jack cheese, mild Anaheim chile salsa, refried beans, guacamole &amp; sour cream</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$7.95</span>
+                    <h6 class="text-truncate">Texas Cheese Fries</h6>
+                    <p class="small">Shredded cheese, bacon, jalapeños, green onions. Served with house-made ranch</p>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <h3 class="text-center">Burgers</h3>
+                <hr class="accent my-5">
+            </div>
+            <div class="card-columns">
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$11.95</span>
+                    <h6 class="text-underline">Classic</h6>
+                    <p class="small">100% Certified Angus Beef patty, 21 sauce, lettuce, Roma tomato, toasted brioche bun</p>
+                    <span class="font-weight-bold small"></span>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$12.95</span>
+                    <h6>BBQ Bacon</h6>
+                    <p class="small"> 100% Certified Angus Beef patty, apple- wood smoked bacon, onion strings, hickory bbq sauce, cheddar, lettuce, Roma tomato, toasted brioche bun </p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$13.95</span>
+                    <h6>Shroom</h6>
+                    <p class="small"> 100% Certified Angus Beef patty, crimini mushrooms, caramelized onions, roasted garlic aïoli, Swiss, lettuce, Roma tomato, toasted brioche bun</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$13.95</span>
+                    <h6>Tex-Mex</h6>
+                    <p class="small"> Tex-Mex seasoned 100% Certified Angus Beef patty, applewood smoked bacon, onion strings, Pepper Jack, jalapeños, chipotle mayo, guacamole, lettuce, Roma tomato, toasted brioche bun</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$13.95</span>
+                    <h6>Spicy Chicken</h6>
+                    <p class="small"> crispy buffalo chicken patty, Frank’s RedHot, bleu cheese crumbles, ranch, lettuce, Roma tomato, toasted brioche bun</p>
+                </div>
+                <div class="card card-body">
+                    <span class="float-right font-weight-bold">$13.95</span>
+                    <h6>Black + Bleu</h6>
+                    <p class="small"> blackened 100% Certified Angus Beef patty, applewood smoked bacon, bleu cheese + crumble sauce, lettuce, Roma tomato, toasted brioche bun</p>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <hr class="accent my-5">
+            </div>
+            <div class="col-6 mx-auto">
+                <div class="card card-body text-center">
+                    <h5 class="text-uppercase">Tuesday Only!</h5>
+                    <h6>Bacon Cheeseburger Tacos</h6>
+                    <p class="small"> 100% Certified Ground Angus Beef Bacon Cheeseburger Tacos are made with cheeseburger wrapped in flour tortillas and topped with tomato, avocado, bacon, lettuce, pickles, grilled red onion, and a sriracha animal sauce</p>
+                    <span class="float-right font-weight-bold">$9.95</span>
+                </div>
+            </div>
+            <div class="col-12 mt-5 border border-right-0 border-left-0">
+                <div class="row">
+                    <div class="col h5 text-danger">Burger Park</div>
+                    <div class="col h5 text-right text-danger">1 800-323-PARK</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+            <div class="col-4 col-sm-2 offset-1">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index-park.html">Home</a></li>
+                    <li><a href="menu-park.html">Menu</a></li>
+                    <li><a href="aboutus-park.html">About</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-5 text-center">
+                <h5>Social</h5>
+                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook"href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-pinterest" href="http://youtube.com/"><i class="fa fa-pinterest"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a role="button" class="btn text-danger" href="tel:+18003237275">
+                    <i class="fa fa-phone"></i> 1-800-323-PARK</a><br>
+                    <a role="button" class="btn text-danger" href="mailto:nucampsites@nucamp.co">
+                    <i class="fa fa-envelope-o"></i> contact@burgerpark.com</a>
+            </div>
+        </div>
+</footer>
+    
+
+
+
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/menu.js"></script>
+</body>
